@@ -1,0 +1,12 @@
+docker -v
+docker images
+docker ps
+paste openjdk api
+docker images
+docker run --name JAVA -it -d openjdk
+docker ps
+docker exec -it JAVA jshell
+jshell>/exit
+docker ps
+docker stop container_id
+docker container rm id

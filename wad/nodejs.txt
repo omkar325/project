@@ -1,0 +1,17 @@
+npm init(cmd promt)
+create index.js file in folder
+npm install express --save
+inside index.js type
+const express=require('express');
+const app=express();
+
+app.use(express.static('public'))
+app.listen(4000,()=>
+{
+    console.log("server is started");
+})
+
+create public folder and create
+index.html
+node index.js(code run)
+
